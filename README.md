@@ -17,7 +17,7 @@ A background script (systemd user service) that:
 ## Quick Install
 
 ```bash
-curl -L https://gist.github.com/taghouttarek/d6729ae25bda6e1133cbad870ad287ae/raw/install-plasma-widget-fix.sh | bash
+curl -L https://raw.githubusercontent.com/taghouti-org/plasma-widget-position-fix/main/install-plasma-widget-fix.sh | bash
 ```
 
 ## Usage
@@ -59,7 +59,3 @@ Then reposition your widgets and lock them — new backups will be created autom
 3. Monitors the Plasma applets config file for changes
 4. When change detected and widgets are locked: saves config as the reference for current display hash
 5. Each unique display layout (identified by connected monitor hash) gets its own backup file in `~/.config/plasma-widget-backups/`
-
----
-
-First published as a [gist](https://gist.github.com/taghouttarek/d6729ae25bda6e1133cbad870ad287ae).
